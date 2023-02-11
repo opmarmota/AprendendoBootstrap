@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+  <title>Hello, world!</title>
+
+  <style>
+    div.grid {
+      background: #ffd1c2;
+      border: 2px solid #f16234;
+      height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container"> <!-- Conteiner normal(dentro da <nav>) -->
+    <div class="row">
+      <div class="col grid"></div> <!-- Col = coluna -->
+      <div class="col grid"></div>
+      <div class="col grid"></div>
+      <div class="col grid"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid"> <!-- Conteiner Fluído(Sempre ocupa 100% do X) -->
+    <div class="row">
+      <div class="col grid"></div>
+      <div class="col grid"></div>
+      <div class="col grid"></div>
+      <div class="col grid"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 grid"></div> <!-- Coluna máxima = 12 -->
+      <div class="col-4 grid"></div>
+      <div class="col-7 grid"></div>
+      <div class="col-1 grid"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 grid"></div>
+      <div class="col-sm-1 grid"></div> <!-- Quando ta menor que 540p ele fica 100% -->
+      <div class="col-md-3 grid"></div> <!-- Quando ta menor que 720p ele fica 100% -->
+      <div class="col-lg-6 grid"></div> <!-- Quando ta menor que 960p ele fica 100% -->
+      <div class="col-xl-2 grid"></div> <!-- Quando ta menor que 1140p ele fica 100% -->
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./assets/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
